@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "798976320147",
+    "firebase_url": "https://waternotification-b61a1.firebaseio.com",
+    "project_id": "waternotification-b61a1",
+    "storage_bucket": "waternotification-b61a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798976320147:android:ed0f8c8569fed2d469e366",
+        "android_client_info": {
+          "package_name": "com.waternotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798976320147-a89chk970aioou4icb10dqecnqc4v2jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVVPZKrEvIFHmMiO4G7LRsRJtv04uwlw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798976320147-a89chk970aioou4icb10dqecnqc4v2jl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "798976320147-dvh58de48h17ksi3tl5t330nlg6bb688.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.waterNotification"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

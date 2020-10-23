@@ -11,4 +11,10 @@ export default StyleSheet.create({
     display: 'flex',
     flex: 1,
   },
+  animatedWater: {
+    position: 'absolute',
+    bottom: 0,
+    width: '100%',
+    backgroundColor: '#00BFFF',
+  },
 });

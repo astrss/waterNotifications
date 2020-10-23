@@ -28,11 +28,13 @@ const Authorization = () => {
         style={styles.email}
         onChangeText={handleChangeInput(setEmail)}
         value={email}
+        placeholder='email'
       />
       <TextInput
         style={styles.password}
         onChangeText={handleChangeInput(setPassword)}
         value={password}
+        placeholder='password'
       />
       <Button title="Sign in" onPress={() => handleSignIn(email, password)} />
     </View>

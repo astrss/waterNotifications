@@ -20,7 +20,7 @@ import styles from './styles';
 
 const Home = () => {
   const water = useRef(new Animated.Value(0)).current;
-  const [notificationValue, setNotificationValue] = useState(10);
+  const [notificationValue, setNotificationValue] = useState(0);
   const [amountWater, setAmountWater] = useState('');
   const [selectedAmountWater, setSelectedAmountWater] = useState('');
 
@@ -55,9 +55,6 @@ const Home = () => {
           console.warn('Background fetch failed to start with error: ' + error);
         },
       );
-    }
-    return () => {
-      BackgroundFetch.stop();
     };
   }, [notificationValue, selectedAmountWater]);
 
@@ -100,12 +97,10 @@ const Home = () => {
       />
       <Text>{notificationValue}</Text>
       <Animated.View
-        style={
-          (styles.animatedWater,
-          {
-            height: water,
-          })
-        }
+        style={{
+          ...styles.animatedWater,
+          height: water,
+        }}
       />
     </KeyboardAvoidingView>
   );
